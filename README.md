@@ -1,119 +1,109 @@
-# 🛒 Blinkit Power BI Dashboard
+# 🛒 Blinkit Grocery Sales & Business Insights Dashboard
 
 ## 📌 Project Overview
 
-This project is an interactive **Power BI dashboard** built using the Blinkit Grocery Dataset to analyze sales performance, outlet characteristics, customer preferences, and business trends.
+This project presents an interactive **Power BI dashboard** built using Blinkit grocery sales data to analyze sales performance, outlet characteristics, product categories, customer preferences, and business trends.
 
-The project uses **Power Query** for data transformation and cleaning, along with **DAX measures** to create meaningful KPIs and analytical visuals.
+The project uses **Power Query** for data cleaning and transformation and **DAX measures** for creating calculated metrics and KPIs. The final dashboard provides interactive visual analysis to support business-oriented decision-making.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
 * Analyze overall Blinkit sales performance.
-* Understand outlet-wise and outlet-type performance.
-* Analyze customer preferences based on product categories and ratings.
-* Identify trends in sales and outlet establishment.
-* Compare different outlet sizes and locations.
-* Generate business insights using interactive Power BI visuals.
+* Evaluate outlet performance across different locations and characteristics.
+* Analyze product category and item-level performance.
+* Understand customer preferences and ratings.
+* Compare sales across outlet types and sizes.
+* Identify important business trends and patterns.
+* Present insights through an interactive Power BI dashboard.
 
 ---
 
-## 🗃️ Dataset
+## 📊 Dashboard Features
 
-The project uses the **Blinkit Grocery Dataset**, containing information related to:
+The dashboard includes interactive visualizations such as:
 
-* Item categories
-* Item type
-* Item sales
-* Item ratings
-* Outlet type
-* Outlet size
-* Outlet location
-* Outlet establishment year
-* Fat content
+* 📌 KPI Cards
+* 🎛️ Interactive Slicers
+* 🍩 Donut Chart
+* 📊 Bar Charts
+* 📈 Line Chart
+* 🔵 Scatter Plot
+* 🔻 Funnel Chart
+* 🎯 Gauge Chart
+* 📋 Data Table
 
-The original dataset is included in the `dataset/` folder.
-
-> **Note:** The cleaned/transformed dataset was not saved separately because data cleaning and transformation were performed directly in **Power Query Editor** within the Power BI project.
+These visuals allow users to explore the data from different business perspectives.
 
 ---
 
 ## 🧹 Data Preparation
 
-Data preparation was performed using **Power Query Editor** in Power BI.
+Data preparation was performed directly in **Power BI Power Query Editor**.
 
-The transformation process included tasks such as:
+The preparation process included tasks such as:
 
 * Data cleaning
-* Handling data types
-* Column transformation
-* Data formatting
-* Preparing fields for analysis
+* Data type corrections
+* Handling data inconsistencies
+* Data transformation
+* Column transformations
+* Preparing data for analysis
 
-The transformed data is stored within the Power BI file rather than as a separate cleaned CSV file.
-
----
-
-## 📊 Dashboard
-
-The Power BI dashboard contains interactive visuals and KPIs for analyzing Blinkit business performance.
-
-### Key Dashboard Components
-
-* KPI Cards
-* Slicers
-* Donut Chart
-* Clustered Bar Chart
-* Clustered Column Chart
-* Line Chart
-* Scatter Plot
-* Funnel Chart
-* Gauge Chart
-* Table
-
-The dashboard allows users to interactively filter and explore the data based on different business dimensions.
+The cleaned/transformed data was used within the Power BI model. A separate cleaned dataset was not saved as a standalone file.
 
 ---
 
 ## 🧮 DAX & Measures
 
-DAX measures were created in Power BI to calculate important business metrics and support the dashboard analysis.
+The project uses **DAX measures** within Power BI to calculate important business metrics and support dashboard analysis.
 
-These measures were used for:
-
-* KPI calculations
-* Sales analysis
-* Aggregations
-* Comparisons
-* Performance analysis
-
-The DAX calculations are available inside the `.pbix` Power BI file.
+These measures were created directly in the Power BI file and used across the dashboard visuals and KPI cards.
 
 ---
 
-## 💡 Business Insights
+## 🔍 Business Analysis
 
-The analysis focuses on identifying:
+The dashboard focuses on analyzing:
 
-* Sales performance across outlet types.
-* Performance differences between outlet sizes.
-* Customer preferences across product categories.
-* Relationship between item ratings and sales.
-* Sales trends based on outlet establishment.
-* Contribution of different product categories to overall sales.
-* Outlet location and performance patterns.
+* Total sales
+* Outlet performance
+* Product and item performance
+* Outlet characteristics
+* Customer ratings
+* Product categories
+* Sales trends
+* Location-based performance
+* Relationships between different business factors
 
-Detailed business insights are available in the `business-insights/` folder.
+Detailed business observations and recommendations are available in the **Business Insights** document included in this repository.
+
+---
+
+## 💡 Key Insights
+
+The project helps identify:
+
+* High-performing outlets and product categories
+* Differences in sales across outlet types
+* Customer rating patterns
+* Product-level sales performance
+* Sales distribution across different business segments
+* Important factors influencing overall sales performance
+
+For detailed findings and business recommendations, refer to the `business-insights` folder.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Microsoft Power BI**
+* **Power BI Desktop**
 * **Power Query**
 * **DAX**
+* **Microsoft Excel / CSV Dataset**
 * Data Visualization
+* Business Intelligence
 * Data Analysis
 
 ---
@@ -124,7 +114,7 @@ Detailed business insights are available in the `business-insights/` folder.
 blinkit-power-bi-dashboard/
 │
 ├── dataset/
-│   └── BlinkIT Grocery Dataset.csv
+│   └── Blinkit dataset file(s)
 │
 ├── power-bi/
 │   └── Blinkit Power BI Dashboard.pbix
@@ -139,33 +129,32 @@ blinkit-power-bi-dashboard/
 
 ## ▶️ How to Use
 
-### 1. Download the Repository
+### 1. Download the repository
 
-Download or clone this repository to your computer.
+Clone or download this repository to your computer.
 
-### 2. Open the Power BI File
+### 2. Open the Power BI file
 
-Open the `.pbix` file from the `power-bi/` folder using **Microsoft Power BI Desktop**.
+Open the `.pbix` file from the `power-bi` folder using **Power BI Desktop**.
 
-### 3. Explore the Dashboard
+### 3. Explore the dashboard
 
-Use the available slicers and interactive visuals to explore Blinkit sales and outlet performance.
+Use the available slicers and interactive visuals to analyze Blinkit sales and business performance.
 
-### 4. Review Business Insights
+### 4. Review business insights
 
-Open the business insights document from the `business-insights/` folder for the detailed findings and interpretations.
+Open the document in the `business-insights` folder to view the detailed business findings and recommendations.
 
 ---
 
-## 📊 Project Deliverables
+## 📂 Project Files
 
-* ✅ Original Blinkit dataset
-* ✅ Power BI dashboard
-* ✅ Power Query data transformations
-* ✅ DAX measures
-* ✅ Interactive visualizations
-* ✅ Business insights document
-* ✅ Project documentation
+| File / Folder        | Description                                                                                             |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| `dataset/`           | Original dataset used for the project                                                                   |
+| `power-bi/`          | Power BI dashboard containing Power Query transformations, data model, DAX measures, and visualizations |
+| `business-insights/` | Business analysis, findings, and recommendations                                                        |
+| `README.md`          | Project documentation                                                                                   |
 
 ---
 
@@ -176,11 +165,11 @@ Through this project, I strengthened my practical knowledge of:
 * Power BI dashboard development
 * Power Query data transformation
 * DAX measures
-* Data visualization
 * KPI development
-* Business-oriented data analysis
-* Interactive reporting
-* Insight generation
+* Interactive data visualization
+* Business intelligence
+* Sales and performance analysis
+* Business-oriented data storytelling
 
 ---
 
